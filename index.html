@@ -5,37 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brooklyn library</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="icon" href="assets/favicon.ico">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&display=swap" rel="stylesheet">    
 </head>
 <body>
+    <div class="max-w">
     <header>
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
-              <li class="nav-item"><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#library-card" class="nav-link">Library card</a></li>
-            </ul>
-        </nav>
-        <img src="./img/lib1.jpeg" alt="library welcome image">
-        <h1>Welcome to the Brooklyn library</h1>
+        <div class="header-container">
+            <h1>Brooklyn Public Library</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
+                    <li class="nav-item"><a href="#coffee-shop" class="nav-link">Coffee shop</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#library-card" class="nav-link">Library card</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
+        <div class="welcome">
+            <div class="welcome-top">
+                <p>Welcome to the Brooklyn library</p>
+            </div>
+        </div>
         <section class="section" id="about">
             <h3>About</h3>
         </section>
         <section class="section" id="favorites">
             <h3>Favorites</h3>
+            <div class="favor">
+                <div class="items">
+                    <p>Staff picks</p>
+                    <p>An unusual sci-fi story about a book eater woman who tries desperately to save her 
+                        dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, 
+                        light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
+                    <img src="./img/eater.jpeg" alt="eater">
+                </div>
+                <div class="items">
+                    <p>Staff picks</p>
+                    <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? 
+                        Look no further than here - where a woman recovering from a breakup moves 
+                        to a quaint town in upstate New York and befriends a beautiful witch.</p>
+                    <img src="./img/harrison.jpeg" alt="harrison">
+                </div>
+                <div class="items">
+                    <p>Staff picks</p>
+                    <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general,
+                        arguing for Dante's uniqueness as one who raised the individual and his drama of soul into 
+                        something of divine significance—an inspired introduction to Dante's main themes.</p>
+                    <img src="./img/dante.jpeg" alt="dante">
+                </div>
+                <div class="items">
+                    <p>Staff picks</p> 
+                    <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring 
+                        how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+                    <img src="./img/queen.jpeg" alt="queen">
+                </div>
+            </div>
         </section>
         <section class="section" id="coffee-shop">
             <h3>Coffee shop</h3>
+            <div class="coffee-shop-menu">
+                <div class="coffee-tea">
+                    <h3>Coffee & Tea</h3>
+                    <ul>
+                        <li>Cold Brew Coffee</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>French Press Pot</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Espresso</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Cappucino</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Hot Teap</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Cold Tea</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                    </ul>
+                </div> 
+                <div class="desserts-cakes">
+                    <h3>Desserts & Cakes</h3>
+                    <ul>
+                        <li>Forest Gateau</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Blue Moon</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Truffle Cake</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Chocolate Cake</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Poet's Dream Cake</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                        <li>Pineapple Cake</li>
+                        <li>-----</li>
+                        <li>$3</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="section" id="contacts">
-            <h3>Contacts</h3>
+            <h3>Our Contacts</h3>
+                <pre>
+                For all library inquiries:
+                Please call (617) 730-2370
+                For TTY service, please call (617) 730-2370
+                Putterham Library: (617) 730-2385
+                Senior Staff
+                Library Director: Amanda Hirst</pre>
         </section>
         <section class="section" id="Library card">
             <h3>Library card</h3>
         </section>
     </main>
+    <footer>
+        2023
+        The Rolling Scopes School
+        amoudaria
+    </footer>
+    </div>
 </body>
 </html>html
