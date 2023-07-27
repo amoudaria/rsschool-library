@@ -90,21 +90,84 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 1440px;
+}
+
+.pick {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+fieldset {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items-box {
+    width: 590px;
+    height: 555px;
+    position: relative;
+    display: flex;
+    margin: 20px;
 }
 
 .items {
+    box-sizing: border-box;
     width: 550px;
     height: 555px;
-    position: relative;
+    flex-shrink: 0;
+    padding: 0px;
+    border: 1px solid black;
 }
 
-.items img {
+.title {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.author {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.descript {
+    width: 355px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+
+.items-box img {
     width: 200px;
     height: 300px;
     position: absolute;
-    top: 255px;
+    right: 0px;
     bottom: 0px;
-    left: 390px;
+    flex-shrink: 0;
 }
 
 .coffee-shop-menu {
@@ -133,4 +196,33 @@ h1 {
 .desserts-cakes ul li {
     list-style-type: none;
     justify-self: end;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 201px; 
+}
+
+footer{
+    background: #0C0C0E;
+    padding: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.link-box {
+    width: 102px;
+    height: 24px;
+    gap: 15px;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
 }

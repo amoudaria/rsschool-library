@@ -38,33 +38,67 @@
         </section>
         <section class="section" id="favorites">
             <h3>Favorites</h3>
+            <p class="pick">Pick favorites of season</p>
+            <fieldset>
+                <legend>Select a maintenance drone:</legend>
+                <div>
+                  <input type="radio" id="huey" name="drone" value="huey"
+                         checked>
+                  <label for="huey">Huey</label>
+                </div>
+                <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey">
+                    <label for="dewey">Dewey</label>
+                  </div>
+              
+                  <div>
+                    <input type="radio" id="louie" name="drone" value="louie">
+                    <label for="louie">Louie</label>
+                  </div>
+              </fieldset>
             <div class="favor">
-                <div class="items">
-                    <p>Staff picks</p>
-                    <p>An unusual sci-fi story about a book eater woman who tries desperately to save her 
-                        dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, 
-                        light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
-                    <img src="./img/eater.jpeg" alt="eater">
+                <div class="items-box">
+                    <div class="items">
+                        <p>Staff picks</p>
+                        <p class="title">The Book Eaters</p>
+                        <p class="author">By Sunyi Dean</p>
+                        <p class="descript">An unusual sci-fi story about a book eater woman who tries desperately to save her 
+                            dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, 
+                            light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</p>
+                        <img src="./img/eater.jpeg" alt="eater">
+                    </div>
                 </div>
-                <div class="items">
-                    <p>Staff picks</p>
-                    <p>Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? 
-                        Look no further than here - where a woman recovering from a breakup moves 
-                        to a quaint town in upstate New York and befriends a beautiful witch.</p>
-                    <img src="./img/harrison.jpeg" alt="harrison">
+                <div class="items-box">
+                    <div class="items">
+                        <p>Staff picks</p>
+                        <p class="title">Cackle</p>
+                        <p class="author">By Rachel Harrison</p>
+                        <p class="descript">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? 
+                            Look no further than here - where a woman recovering from a breakup moves 
+                            to a quaint town in upstate New York and befriends a beautiful witch.</p>
+                        <img src="./img/harrison.jpeg" alt="harrison">
+                    </div>
                 </div>
-                <div class="items">
-                    <p>Staff picks</p>
-                    <p>Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general,
-                        arguing for Dante's uniqueness as one who raised the individual and his drama of soul into 
-                        something of divine significance—an inspired introduction to Dante's main themes.</p>
-                    <img src="./img/dante.jpeg" alt="dante">
-                </div>
-                <div class="items">
-                    <p>Staff picks</p> 
-                    <p>A timely and revelatory new biography of Queen Elizabeth (and her family) exploring 
-                        how the Windsors have evolved and thrived as the modern world has changed around them.</p>
-                    <img src="./img/queen.jpeg" alt="queen">
+                <div class="items-box">
+                    <div class="items">
+                        <p>Staff picks</p>
+                        <p class="title">Dante: poet of the secular world</p>
+                        <p class="author">By Erich Auerbach</p>
+                        <p class="descript">Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general,
+                            arguing for Dante's uniqueness as one who raised the individual and his drama of soul into 
+                            something of divine significance—an inspired introduction to Dante's main themes.</p>
+                        <img src="./img/dante.jpeg" alt="dante">
+                    </div>
+            </div>
+                <div class="items-box">
+                    <div class="items">
+                        <p>Staff picks</p>
+                        <p class="title">The Last Queen</p>
+                        <p class="author">By Cilve Irving</p>
+                        <p class="descript">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring 
+                            how the Windsors have evolved and thrived as the modern world has changed around them.</p>
+                        <img src="./img/queen.jpeg" alt="queen">
+                    </div>
                 </div>
             </div>
         </section>
@@ -121,23 +155,51 @@
         </section>
         <section class="section" id="contacts">
             <h3>Our Contacts</h3>
-                <pre>
-                For all library inquiries:
-                Please call (617) 730-2370
-                For TTY service, please call (617) 730-2370
-                Putterham Library: (617) 730-2385
-                Senior Staff
-                Library Director: Amanda Hirst</pre>
+            <div class="contacts">
+                <div class="contacts-left">
+                    <p>For all library inquiries:</p>
+                    <p>Please call <a href="tel:+6177302370">(617) 730-2370</a></p>
+                    <p>For TTY service, please call <a href="tel:+6177302370">(617) 730-2370</a></p>
+                    <p>Putterham Library: <a href="tel:+6177302385">(617) 730-2385</a></p>
+                    <p>Senior Staff</p>
+                    <p>Library Director: Amanda Hirst</p>
+                </div>
+                <div class="contacts-right">
+                    <img src="./img/map.png" alt="map" width="696px" height="414px">
+                </div>
+            </div>
         </section>
         <section class="section" id="Library card">
             <h3>Library card</h3>
         </section>
     </main>
     <footer>
-        2023
-        The Rolling Scopes School
-        amoudaria
+        <div class="footer-2">
+            <div class="left-part">
+                <p>286 Cadman Plaza, New York,<br>NY 11238, United States</p>
+                <div class="link-box">
+                    <a href="https://twitter.com">
+                        <img src="./img/u_twitter-alt.svg">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="./img/u_instagram.svg">
+                    </a>
+                    <a href="https://facebook.com">
+                        <img src="./img/u_facebook-f.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="right-part">
+                <p>Mon - Fri<br>08:00 am - 07:00 pm</p>
+                <p>Sat - Sun<br>10:00 am - 06:00 pm</p>
+            </div>
+        </div>
+        <div class="footer-2">
+            <span>2023</span>
+            <span>The Rolling Scopes School</span>
+            <span>amoudaria</span>
+        </div>
     </footer>
     </div>
 </body>
-</html>html
+</html>
