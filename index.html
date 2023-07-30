@@ -15,7 +15,9 @@
     <div class="max-w">
     <header>
         <div class="header-container">
-            <h1>Brooklyn Public Library</h1>
+            <div class="h1-class">
+                <h1>Brooklyn Public Library</h1>
+            </div>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -25,41 +27,71 @@
                     <li class="nav-item"><a href="#library-card" class="nav-link">Library card</a></li>
                 </ul>
             </nav>
+            <div class="icon">
+                <a href="https://twitter.com">
+                    <img src="./img/icon_profile.svg">
+                </a>
+            </div>
         </div>
     </header>
     <main>
         <div class="welcome">
             <div class="welcome-top">
-                <p>Welcome to the Brooklyn library</p>
+            </div>
+            <div class="welcome-p">
+                <p>Welcome <br> to the Brooklyn <br> library</p>
             </div>
         </div>
         <section class="section" id="about">
-            <h3>About</h3>
+            <h3 class="section-name">About</h3>
+            <hr>
+            <p class="about-p">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+            <div class="about-img">
+                <img src="./img/about1.jpeg" alt="1">
+                <img src="./img/about2.jpeg" alt="2">
+                <img src="./img/about3.jpeg" alt="3">
+            </div>
+            <div class="carousel">
+                <div class="caro2">
+                    <div class="caro3"></div>
+                </div>
+                <div class="caro2">
+                    <div class="caro3"></div>
+                </div>
+                <div class="caro2">
+                    <div class="caro3"></div>
+                </div>
+            </div>
         </section>
         <section class="section" id="favorites">
-            <h3>Favorites</h3>
-            <p class="pick">Pick favorites of season</p>
+            <h3 class="section-name">Favorites</h3>
+            <hr>
             <fieldset>
-                <legend>Select a maintenance drone:</legend>
+                <legend class="pick">Pick favorites of season</legend>
                 <div>
-                  <input type="radio" id="huey" name="drone" value="huey"
+                  <input type="radio" id="Winter" name="drone" value="Winter"
                          checked>
-                  <label for="huey">Huey</label>
+                  <label for="huey">Winter</label>
                 </div>
                 <div>
-                    <input type="radio" id="dewey" name="drone" value="dewey">
-                    <label for="dewey">Dewey</label>
+                    <input type="radio" id="Spring" name="drone" value="Spring">
+                    <label for="dewey">Spring</label>
                   </div>
               
                   <div>
-                    <input type="radio" id="louie" name="drone" value="louie">
-                    <label for="louie">Louie</label>
+                    <input type="radio" id="Summer" name="drone" value="Summer">
+                    <label for="louie">Summer</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" id="Autumn" name="drone" value="Autumn">
+                    <label for="louie">Autumn</label>
                   </div>
               </fieldset>
             <div class="favor">
                 <div class="items-box">
                     <div class="items">
-                        <p>Staff picks</p>
+                        <p class="staff-picks">Staff picks</p>
                         <p class="title">The Book Eaters</p>
                         <p class="author">By Sunyi Dean</p>
                         <p class="descript">An unusual sci-fi story about a book eater woman who tries desperately to save her 
@@ -103,66 +135,90 @@
             </div>
         </section>
         <section class="section" id="coffee-shop">
-            <h3>Coffee shop</h3>
+            <h3 class="section-name">Coffee shop</h3>
+            <hr>
             <div class="coffee-shop-menu">
                 <div class="coffee-tea">
-                    <h3>Coffee & Tea</h3>
-                    <ul>
-                        <li>Cold Brew Coffee</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>French Press Pot</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Espresso</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Cappucino</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Hot Teap</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Cold Tea</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                    </ul>
+                    <h4>Coffee & Tea</h4>
+                    <div class="menu-item">
+                        <span class="coffee-name">Cold Brew Coffee</span>
+                        <span>-----</span>
+                        <span>$3</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="coffee-name">French Press Pot</span>
+                        <span>-----</span>
+                        <span>$5</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="coffee-name">Espresso</span>
+                        <span>-----</span>
+                        <span>$2</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="coffee-name">Cappucino</span>
+                        <span>-----</span>
+                        <span>$4</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="coffee-name">Hot Tea</span>
+                        <span>-----</span>
+                        <span>$2</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="coffee-name">Cold Tea</span>
+                        <span>-----</span>
+                        <span>$2</span>
+                    </div>
                 </div> 
                 <div class="desserts-cakes">
-                    <h3>Desserts & Cakes</h3>
-                    <ul>
-                        <li>Forest Gateau</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Blue Moon</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Truffle Cake</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Chocolate Cake</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Poet's Dream Cake</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                        <li>Pineapple Cake</li>
-                        <li>-----</li>
-                        <li>$3</li>
-                    </ul>
+                    <h4>Desserts & Cakes</h4>
+                    <div class="menu-item">
+                        <span>Forest gateau</span>
+                        <span>-----</span>
+                        <span>$16</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Blue Moon</span>
+                        <span>-----</span>
+                        <span>$16</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Truffle Cake</span>
+                        <span>-----</span>
+                        <span>$15</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Chocolate Cake</span>
+                        <span>-----</span>
+                        <span>$18</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Poet's Dream Cake</span>
+                        <span>-----</span>
+                        <span>$16</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Pineapple Cake</span>
+                        <span>-----</span>
+                        <span>$14</span>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="section" id="contacts">
-            <h3>Our Contacts</h3>
+            <h3 class="section-name">Our Contacts</h3>
+            <hr>
             <div class="contacts">
                 <div class="contacts-left">
-                    <p>For all library inquiries:</p>
-                    <p>Please call <a href="tel:+6177302370">(617) 730-2370</a></p>
-                    <p>For TTY service, please call <a href="tel:+6177302370">(617) 730-2370</a></p>
-                    <p>Putterham Library: <a href="tel:+6177302385">(617) 730-2385</a></p>
-                    <p>Senior Staff</p>
-                    <p>Library Director: Amanda Hirst</p>
+                    <p><b>For all library inquiries:</b></p>
+                    <div class="phone">
+                        <p>Please call <a href="tel:+6177302370">(617) 730-2370</a></p>
+                        <p>For TTY service, please call <a href="tel:+6177302370">(617) 730-2370</a></p>
+                        <p>Putterham Library: <a href="tel:+6177302385">(617) 730-2385</a></p>
+                    </div>
+                    <p><b>Senior Staff</b></p>
+                    <p>Library Director: <b> Amanda Hirst </b></p>
                 </div>
                 <div class="contacts-right">
                     <img src="./img/map.png" alt="map" width="696px" height="414px">
@@ -170,11 +226,34 @@
             </div>
         </section>
         <section class="section" id="Library card">
-            <h3>Library card</h3>
+            <h3 class="section-name">Digital Library Cards</h3>
+            <hr>
+            <div class="card">
+                <div class="card-l">
+                    <p>Find your Library card</p>
+                    <div class="card-out">
+                        <div class="card-in">
+                            <form>
+                                <label>Brooklyn Public Library</label>
+                                <input type="text" id="pin" placeholder="Reader's name">
+                                <input type="text" id="pin" placeholder="Card number">
+                              </form>
+                        </div>
+                        <div class="btn">
+                            <form>
+                                <button>Check the card</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-r">
+                    <p>You will be able to see a reader card after <br>logging into account or you can register a new<br> account</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="footer-2">
+        <div class="footer-1">
             <div class="left-part">
                 <p>286 Cadman Plaza, New York,<br>NY 11238, United States</p>
                 <div class="link-box">
